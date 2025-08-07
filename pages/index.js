@@ -6,6 +6,7 @@ function Home(){
             <h3>Home do contador</h3>
             <Contador />
             <div><h4>Outro parágrafo</h4></div>
+            <div><p>Aqui apenas um parágrafo de teste</p></div>
         </div>
     )
 }
