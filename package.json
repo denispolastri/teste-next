@@ -1,0 +1,25 @@
+{
+  "name": "teste-next",
+  "version": "1.0.0",
+  "description": "Teste de página usando Nextjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denispolastri/teste-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denispolastri/teste-next/issues"
+  },
+  "homepage": "https://github.com/denispolastri/teste-next#readme",
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
