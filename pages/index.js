@@ -3,10 +3,10 @@ import { useState } from "react";
 function Home(){
     return (
         <div>
-            <h3>Home do contador</h3>
+            <h3>Home teste</h3>
             <Contador />
-            <div><h4>Outro parágrafo</h4></div>
-            <div><p>Aqui apenas um parágrafo de teste</p></div>
+            <div><h4>apenas um texto de exemplo</h4></div>
+            <div><p>apenas um parágrafo de exemplo</p></div>
         </div>
     )
 }
@@ -20,8 +20,8 @@ function Contador(){
 
     return (
         <div>
-            <h4>{contador}</h4>
-            <button onClick={adicionarContador}>Adicionar</button>
+            <h4>botão contador</h4>
+            <button onClick={adicionarContador}>Você me pressionou {contador} vezes</button>
         </div>
     )
 }
