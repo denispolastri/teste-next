@@ -21,7 +21,7 @@ function Contador(){
     return (
         <div>
             <h4>botão contador</h4>
-            <button onClick={adicionarContador}>Você me pressionou {contador} vezes</button>
+            <button onClick={adicionarContador}>Você me pressionou <b>{contador}</b> vezes</button>
         </div>
     )
 }
